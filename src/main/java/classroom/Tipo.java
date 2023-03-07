@@ -1,11 +1,11 @@
 package classroom;
 
 public enum Tipo {
-	DISCIPLINAR(10),FUNDAMENTACION(20),ELECTIVA(30);
+	DISCIPLINAR (10),FUNDAMENTACION(20),ELECTIVA(30);
 	
 	private final int codigo;
 	
 	Tipo(int codigo) {
-		this.codigo = codigo;
+	this.codigo = codigo;
 	}
 }
